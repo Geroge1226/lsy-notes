@@ -10,4 +10,4 @@
 - 数据库技术：mysql
 
 [github仓库](https://github.com/Geroge1226/lsy-notes.git)
-[开始阅读](#docsify)
+[开始阅读](README)
