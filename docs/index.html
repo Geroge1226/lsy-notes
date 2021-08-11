@@ -26,6 +26,12 @@
       auto2top: true,
       // 左侧导航展开层级
       subMaxLevel: 3,
+      // 设置history浏览器中的#号不出现
+      routerMode: 'history',
+      pagination: {
+        previousText: 'previous',
+        nextText: 'next',
+      },
       // 配置好搜索
       search: {
         paths: 'auto',
@@ -39,5 +45,9 @@
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <!--允许用户从文档中copy代码-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <!--上下章节配置-->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 </html>
