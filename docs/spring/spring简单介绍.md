@@ -1,6 +1,6 @@
 spring 诞生于2003年 Rohnson设计理念，针对EJB方式变动
 
-![image-20210810161036468](/Users/longshiyang/Library/Application Support/typora-user-images/image-20210810161036468.png)
+![s](/images/20210810160000.png)
 
 #### 1. Data Access/Integration（数据访问／集成）
 
