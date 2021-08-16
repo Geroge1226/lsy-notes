@@ -7,6 +7,8 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+
 </head>
 <body>
   <!--增加导航-->
@@ -20,12 +22,14 @@
       coverpage:true,
       // 配置左侧导航栏
       loadSidebar:true,
+      // set sidebar display level
+      sidebarDisplayLevel: 0, 
       // 配置头部导航栏
       loadNavbar:true,
       // 切换页面跳到顶部
       auto2top: true,
       // 左侧导航展开层级
-      subMaxLevel: 3,
+      subMaxLevel: 2,
       // 设置history浏览器中的#号不出现
       // routerMode: 'history',
       pagination: {
@@ -38,6 +42,13 @@
         placeholder: '请输入要搜索的关键字',
         noData: '没有结果',
          depth: 6,
+      },
+      // 统计字数
+      count:{
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
       }
 }
   </script>
@@ -49,5 +60,12 @@
   <!-- <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script> -->
   <!--上下章节配置-->
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- 统计字数 -->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <!-- 折叠左侧菜单 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!--  -->
+  
+
 </body>
 </html>

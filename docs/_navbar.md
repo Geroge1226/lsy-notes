@@ -2,7 +2,7 @@
   * [设计模式](设计模式/)
   * [java](java/)
   * [java高并发](java高并发/)
-  * [java虚拟机](java虚拟机)
+  * [java虚拟机](java虚拟机/)
 * 框架
   * [spring](spring/)
   * [springboot](springboot/)

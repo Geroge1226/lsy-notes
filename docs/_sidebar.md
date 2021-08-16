@@ -3,6 +3,8 @@
 * [2.java高并发](java高并发/)
 	* [高并发基础](/java高并发/高并发基础)
 * [3.java虚拟机](java虚拟机/)
+    * [java虚拟机发展简述](java虚拟机/java虚拟机发展简述)
+    * [虚拟机编译源码](java虚拟机/虚拟机编译源码)
 * [4.mybatis](mybatis/)
 * [5.spring](spring/)
     * [5.0 gradle构建spring源码](spring/idea构建spring源码)
@@ -12,5 +14,9 @@
 	* [6.2 代理模式](设计模式/代理模式)
 * [7.elasticsearch](elasticsearch/)
 * [8.mq](mq/)
+    * [kaffa](mq/kafaka/)
+    * [rocketMq](mq/rocketMq/)
+    * [rabbitMq](mq/rocketMq/)
 * [9.redis](redis/)
+    * [redis常见数据类型](redis/redis数据类型)
 
