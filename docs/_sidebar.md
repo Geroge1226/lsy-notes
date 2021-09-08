@@ -6,6 +6,7 @@
     * [java虚拟机发展简述](java虚拟机/java虚拟机发展简述)
     * [虚拟机编译源码](java虚拟机/虚拟机编译源码)
 * [4.mybatis](mybatis/)
+    * [mybatis-plus使用](mybatis/mybatis-plus使用)
 * [5.spring](spring/)
     * [5.0 gradle构建spring源码](spring/idea构建spring源码)
 	* [5.1 spring简单介绍](spring/spring简单介绍)
